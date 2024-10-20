@@ -1,0 +1,10 @@
+def find_unique(numbers):
+    unique = 0
+    for number in numbers:
+        unique ^= number
+    return unique
+
+# Example Usage
+numbers = [2, 3, 5, 4, 5, 3, 4]
+unique_number = find_unique(numbers)
+print(f"العنصر الوحيد المختلف هو: {unique_number}")
